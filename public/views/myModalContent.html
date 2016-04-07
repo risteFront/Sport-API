@@ -1,0 +1,39 @@
+<div>
+<table class="table table-bordered table-striped tableres">
+	<thead>
+		<tr>
+			<th>Pos</th>
+			<th>Team</th>
+			<th>points</th>
+			<th>goals</th>
+			<th>ga</th>
+			<th>H</th>
+			<th>W</th>
+			<th>D</th>
+			<th>L</th>
+			<th>A</th>
+			<th>W</th>
+			<th>D</th>
+			<th>L</th>
+		</tr>
+	</thead>
+	<tbody >
+		<tr ng-repeat="val in tableRes">
+			<td># {{val.position}}</td>
+			<td> <img src="{{val.crestURI}}"
+			> {{val.teamName}} </td>
+			<td>{{val.points}}</td>
+			<td>{{val.goals}}</td>
+			<td>{{val.goalsAgainst}}</td>
+			<td><img src="style/home.png"style="width: 17px;"></td>
+			<td>{{val.home.wins}}</td>
+			<td>{{val.home.draws}}</td>
+			<td>{{val.home.losses}}</td>
+			<td><img src="style/away.png" style="width:17px;"></td>
+			<td>{{val.away.wins}}</td>
+			<td>{{val.away.draws}}</td>
+			<td>{{val.away.losses}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>

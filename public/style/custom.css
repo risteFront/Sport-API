@@ -1,0 +1,224 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+}
+html { overflow-y: scroll; }
+body { snow
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 62.5%; 
+  line-height: 1; 
+  margin: 30px 0;
+   background-repeat: no-repeat;
+  background-image: url(stadion.jpg);
+  background-position:  center;
+  background-attachment: fixed;
+  height: 900px;
+  height: auto;
+}
+
+br { display: block; line-height: 2.2em; } 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+
+h1 { 
+  font-family: 'Acme', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 3.2em;
+  line-height: 1.7em;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.45em;
+  margin-bottom: 15px;
+}
+
+a { color: #6d8ec5; }
+a:hover { color: #8ca6d1; }
+
+
+
+#maincontent {
+  display: fixed;
+  width: 552px;
+  margin-left: 300px;
+  background-color: transparent;
+  margin-bottom: 100px;
+}
+
+#vertical-nav {
+	display: fixed;
+}
+#vertical-nav:hover {
+  height: 280px;
+}
+
+#vertical-nav ul { list-style: none; }
+
+#vertical-nav ul li { display: block; font-size: 5px; font-weight: bold; }
+
+#vertical-nav ul li a { 
+  text-decoration: none;
+  color: #27569B;
+  display: block; 
+  padding: 8px 5px; 
+}
+#vertical-nav ul li a:hover {
+  background: #27569B;
+}
+
+
+/* horizontal navigation */
+#horizontal-nav {
+  display: fixed;
+  background-color: transparent;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+  -webkit-transition: height 0.2s linear;
+  -moz-transition: height 0.2s linear;
+  transition: height: 0.2s linear; 
+}
+#horizontal-nav:hover {
+  height: 65px;
+}
+
+#horizontal-nav ul { list-style: none; }
+#horizontal-nav ul li { display: block; float: left; width: 110px; }
+
+#horizontal-nav ul li a { 
+  display: block;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #F2F8F7;
+  border-top: 3px solid #c1cddc;
+}
+#horizontal-nav ul li a:hover {
+  border-top-color: #96bae6;
+  background: #27569B;
+}
+
+#horizontal-nav ul li a .navicon { display: block; width: 100%; text-align: center; margin-bottom: 4px; }
+.bundes {
+	clear: both;
+	background-color:#fff;
+	opacity:1;
+	margin: auto;
+	border: 1px solid #A7C6DB;
+	width: 700px;
+	display: block;
+	border-radius: 5px;
+}
+.clearfix {
+display: fixed;  background-color: transparent;
+
+}
+.heading-league {
+	background-color: #252C34;
+	color: #fff;
+	border: none;
+	margin-bottom: 0px;
+	font-size: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.heading-button {
+	font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+    position: absolute;
+    top: -1xp;
+    right: -1px;
+    bottom: 6px;
+
+}
+.heading-button:hover {
+  color:#4F5A95;
+  text-decoration: none;
+}
+.heading-button:before {
+
+}
+ .pulright{
+	right: 44px;
+    position: absolute;
+    bottom: 7px;
+	}
+.select-style {
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+	background-color: #98C0E3;
+	border-radius: 5px;
+	display: block;
+}
+table tbody tr:hover {
+	cursor:pointer;
+	background-color: #CBE8F8;
+}
+table tbody tr:hover:nth-child(n){
+	cursor:pointer;
+	background-color: #CBE8F8;
+}
+.match-right {
+	text-align: right;
+}
+.match-left {
+	text-align: left;
+}
+.match-center {
+	text-align: center;
+}
+.images-nations {
+	width: 15px
+	height:auto;
+}
+.tableres {
+	font-size: 10px;
+
+}
+.tableres img {
+	width: 17px;
+	height: auto;
+}
+tbody tr td img:hover {
+	width: 22px;
+	display: fixed;
+}

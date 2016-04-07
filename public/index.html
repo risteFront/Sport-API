@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="API_Sports">
+<head>
+	<title>Footbal APi</title>
+
+	<link rel="stylesheet" type="text/css" href="style/custom.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body data-ng-controller="priviewCtrl">
+ <div id="maincontent">
+        <div id="horizontal-nav">
+          <ul class="clearfix">
+            <li><a href="#bundes" active><span class="navicon"><img src="style/gb.png"></span>England LEague <br>
+            ({{premiere}})</a></li>
+            <li><a href="#france"><span class="navicon"><img src="style/fr.png"></span>France League<br>
+            {{spanish}}</a></li>
+            <li><a href="#germany"><span class="navicon"><img src="style/de.png"></span>German League<br>({{bundes}})</a></li>
+            <li><a href="#italia"><span class="navicon"><img src="style/it.png"></span>Italia League<br>({{italia}})</a></li>
+            <li><a href="#"><span class="navicon"><img src="style/ball.png" style="width: 33px;height: auto;padding-top: 0px;margin-top: 0px;"></span>All Matches</a></li>
+          </ul>
+        </div>
+  </div>
+<div ng-view></div>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-animate.js"></script>
+<script src="bower_components/angular-touch.js"></script>
+<script src="bower_components/ui-bootstrap-tpls-1.2.5.min.js"></script>
+<script src="bower_components/modal.js"></script>
+
+<script src="app.js"></script>
+<script src="js/priview.js"></script>
+<script src="js/england.js"></script>
+<script src="js/france.js"></script>
+<script src="js/germany.js"></script>
+<script src="js/italia.js"></script>
+</body>
+</html>
